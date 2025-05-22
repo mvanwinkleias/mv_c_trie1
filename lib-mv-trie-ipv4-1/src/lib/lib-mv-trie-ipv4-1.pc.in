@@ -4,7 +4,7 @@ libdir=@libdir@
 includedir=@includedir@
 
 Name: lib-mv-trie-ipv4-1
-Description: IPv4 trie
+Description: IPv4 Trie Tree Library
 URL: 
 Version: @VERSION@
 dnl Requires: <dependencies>

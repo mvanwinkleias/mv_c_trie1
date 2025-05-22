@@ -1,5 +1,5 @@
 ACLOCAL_AMFLAGS = -I m4
-SUBDIRS = lib tests
+SUBDIRS = src/lib tests
 dist_doc_DATA = README.md
 
 dist_man_MANS = doc/lib-mv-trie-ipv4-1.1 \

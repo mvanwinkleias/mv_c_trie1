@@ -6,8 +6,8 @@ dnl AC_PROG_CXX
 AC_CONFIG_HEADERS([config.h])
 AC_CONFIG_FILES([
  Makefile
- lib/Makefile
- lib/lib-mv-trie-ipv4-1.pc
+ src/lib/Makefile
+ src/lib/lib-mv-trie-ipv4-1.pc
  tests/Makefile
 ])
 AC_CONFIG_MACRO_DIRS([m4])

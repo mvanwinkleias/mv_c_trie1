@@ -25,7 +25,8 @@ liblib_mv_trie_ipv4_1_la_SOURCES = \
 
 include_HEADERS = lib-mv-trie-ipv4-1.h
 
-liblib_mv_trie_ipv4_1_la_LDFLAGS = -version-info 0:0:0
+liblib_mv_trie_ipv4_1_la_LDFLAGS = -version-info 0:0:0 \
+	--version-script=lib-mv-trie-ipv4-1.map
 
 # -Wl,--version-script=lib-mv-trie-ipv4-1.map
 
