@@ -1,10 +1,5 @@
 #include "lib-mv-trie-ipv4-1.h"
 
-#include <stdio.h>
-#include <stdlib.h>
-#include <stdbool.h>
-#include <stdint.h>
-
 int binary_tree_node_init(binary_tree_node * new_node)
 {
 
