@@ -1,0 +1,10 @@
+
+
+m4_define([autotools_test1_abi_current_version], [3])
+m4_define([autotools_test1_abi_revision_version], [0])
+m4_define([autotools_test1_abi_age_version], [1])
+
+m4_define([autotools_test1_api_major_version], [4])
+m4_define([autotools_test1_api_minor_version], [3])
+m4_define([autotools_test1_api_patch_version], [0])
+

@@ -1,0 +1,75 @@
+# 
+
+init_project.sh
+
+Makefile.in
+aclocal.m4
+autom4te.cache/
+compile
+config.h.in
+configure
+depcomp
+install-sh
+missing
+
+# These are from after you run configure and make
+Makefile
+config.h
+config.log
+config.status
+src/.deps/
+src/Makefile
+src/lib-mv-trie-ipv4-1
+src/lib-mv-trie-ipv4-1_runner
+src/*.o
+stamp-h1
+
+doc/.dirstamp
+doc/lib_mv_trie_ipv4_1.info
+doc/stamp-vti
+doc/version.texi
+doc/*.info
+
+# If you compile things in the project directory, this stuff gets created:
+lib/.deps
+lib/.libs
+lib/*.lo
+lib/*.o
+lib/*.pc
+lib/*.la
+libtool
+src/.libs
+
+*~
+*.swp
+*.swo
+
+*.glade
+
+build
+debug
+
+
+# Editors
+
+## Dia
+*.dia.autosave
+
+## Emacs
+\#*\#
+.\#*
+
+
+## Vi / Vim
+*.swp
+
+# Filesystem Artifacts
+
+## Mac
+
+.DS_Store
+
+## NFS
+
+.nfs*
+
