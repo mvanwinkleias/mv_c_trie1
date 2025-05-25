@@ -1,4 +1,11 @@
-{
-	global: index;
+/*
+Please see:
+* https://www.gnu.org/software/gnulib/manual/html_node/LD-Version-Scripts.html
+
+*/
+
+LIB_MV_TRIE_IPV4_1_1.0 {
+	global: *;
+	/* libfoo_init; libfoo_doit; libfoo_done; */
 	local: *;
 };

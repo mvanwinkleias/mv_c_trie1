@@ -21,13 +21,22 @@ lib_LTLIBRARIES = liblib-mv-trie-ipv4-1.la
 
 liblib_mv_trie_ipv4_1_la_SOURCES = \
 	lib-mv-trie-ipv4-1.c \
-	lib-mv-trie-ipv4-1.h
+	lib-mv-trie-ipv4-1.h \
+	lib-mv-trie-ipv4-1.map 
 
 include_HEADERS = lib-mv-trie-ipv4-1.h
 
-liblib_mv_trie_ipv4_1_la_LDFLAGS = -version-info 0:0:0 \
-	--version-script=lib-mv-trie-ipv4-1.map
+# If we don't initialize this, we can't use += later, so
+# we just assume this is the only place where this variable is initailzed.
+liblib_mv_trie_ipv4_1_la_LDFLAGS = ''
+# You can use ```objdump -T``` to check the version info of the symbols of the resulting
+# .so file(s)
 
-# -Wl,--version-script=lib-mv-trie-ipv4-1.map
+# This is how to use ldd version scripts for the ABI.
+# See
+# * https://www.gnu.org/software/gnulib/manual/html_node/LD-Version-Scripts.html
+liblib_mv_trie_ipv4_1_la_LDFLAGS += -Wl,--version-script=$(srcdir)/lib-mv-trie-ipv4-1.map
+
+
 
 # === End Libraries ===
