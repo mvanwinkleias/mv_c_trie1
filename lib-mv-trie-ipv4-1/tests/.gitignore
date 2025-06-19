@@ -1,0 +1,11 @@
+.deps
+.libs
+*.lo
+*.o
+*.pc
+*.la
+
+*.log
+*.trs
+
+testlib-mv-trie-ipv4-1

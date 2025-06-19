@@ -25,7 +25,6 @@ TESTS = $(check_PROGRAMS)
 # Needed, as per:
 # https://www.gnu.org/software/automake/manual/html_node/Objects-created-both-with-libtool-and-without.html
 testlib_mv_trie_ipv4_1_CFLAGS = $(AM_CFLAGS)
-# Included for completeness:
 testlib_mv_trie_ipv4_1_LDFLAGS = $(AM_LDFLAGS)
 
 # === End Programs ===

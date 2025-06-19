@@ -12,6 +12,13 @@ depcomp
 install-sh
 missing
 
+texinfo.tex
+m4
+config.sub
+config.guess
+ar-lib
+test-driver
+
 # These are from after you run configure and make
 Makefile
 config.h
