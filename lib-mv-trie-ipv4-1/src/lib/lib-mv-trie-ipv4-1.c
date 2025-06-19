@@ -5,6 +5,7 @@ int binary_tree_node_init(binary_tree_node * new_node)
 
 	if (new_node)
 	{
+		new_node->parent = NULL;
 		new_node->children[0] = NULL;
 		new_node->children[0] = NULL;
 
