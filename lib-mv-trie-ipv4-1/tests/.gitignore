@@ -7,5 +7,6 @@
 
 *.log
 *.trs
+Makefile.in
 
 testlib-mv-trie-ipv4-1
