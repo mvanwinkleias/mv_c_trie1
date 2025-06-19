@@ -52,6 +52,7 @@ binary_tree_node *binary_tree_node_insert(
 		if (!current->children[index])
 		{
 			current->children[index] = binary_tree_node_create();
+			current->children[index]->parent = root;
 		}
 		current = current->children[index];
 	}
