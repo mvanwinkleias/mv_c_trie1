@@ -12,7 +12,7 @@ int binary_tree_node_base_type_num_bits = sizeof(binary_tree_node_base_type) * 8
 
 typedef struct binary_tree_node
 {
-	struct binary_tree_node parent;
+	struct binary_tree_node *parent;
 
 	struct binary_tree_node *children[2];
 
