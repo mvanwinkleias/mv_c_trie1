@@ -12,13 +12,6 @@ depcomp
 install-sh
 missing
 
-texinfo.tex
-m4
-config.sub
-config.guess
-ar-lib
-test-driver
-
 # These are from after you run configure and make
 Makefile
 config.h
@@ -38,14 +31,7 @@ doc/version.texi
 doc/*.info
 
 # If you compile things in the project directory, this stuff gets created:
-lib/.deps
-lib/.libs
-lib/*.lo
-lib/*.o
-lib/*.pc
-lib/*.la
 libtool
-src/.libs
 
 *~
 *.swp
